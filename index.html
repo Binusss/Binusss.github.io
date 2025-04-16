@@ -5,21 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
 
-    <!-- Link to your generated Tailwind CSS file -->
     <link href="./output.css" rel="stylesheet">
-    <!-- REMOVED: <script src="https://cdn.tailwindcss.com"></script> -->
+
 
     <style>
-        /* Optional: You might not need this custom style if Tailwind covers it */
-        /* Consider adding fonts via Tailwind config or another CSS file */
+
         body {
-            font-family: sans-serif; /* Example font - You can manage fonts better with Tailwind */
+            font-family: sans-serif;
         }
     </style>
 </head>
 <body>
 
-    <!-- Header/Nav Placeholder -->
+
     <nav class="bg-white shadow-sm fixed top-0 left-0 right-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
@@ -35,20 +33,19 @@
             </div>
         </div>
     </nav>
-    <!-- End Header/Nav Placeholder -->
 
 
-    <!-- Hero Section -->
+
     <section class="flex items-center justify-center min-h-screen bg-gradient-to-br from-red-500 to-red-700 pt-16 px-4">
-        <!-- Container to group image and text and center them -->
+
         <div class="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 max-w-4xl w-full text-center md:text-left">
 
-            <!-- Image Div -->
+
             <div class="flex-shrink-0 mt-8 md:mt-0">
-                 <img src="images/profpic.jpg" alt="Profile Photo" class="w-60 h-60 md:w-80 md:h-80 object-cover rounded-full shadow-2xl mx-auto"> 
+                 <img src="images/profpic.jpg" alt="Profile Photo" class="w-60 h-60 md:w-80 md:h-80 object-cover rounded-full shadow-2xl mx-auto">
             </div>
 
-            <!-- Text Content Box Div -->
+
             <div class="bg-white/95 backdrop-blur-sm p-8 md:p-10 rounded-xl shadow-xl flex-grow max-w-lg">
                 <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-2">Venus Gem</h2>
                 <h3 class="text-xl md:text-2xl text-red-600 font-semibold mb-5">Aspiring Software Developer</h3>
@@ -64,7 +61,6 @@
     </section>
 
 
-      <!-- Education Section -->
     <section id="education" class="py-20 px-6 bg-red-500">
       <div class="max-w-5xl mx-auto text-center mb-16">
         <h2 class="text-4xl font-extrabold text-white tracking-wide mb-4">🎓 Education</h2>
@@ -72,8 +68,7 @@
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
         <div class="bg-white p-8 rounded-3xl shadow-2xl border-l-8 border-red-600 transition-transform transform hover:scale-105 duration-300">
-         <!-- Assuming you might want the logo here later -->
-         <!-- <img src="./images/ateneologo.png" alt="Ateneo de Davao University Logo" class="h-16 w-auto mb-5 self-start"> -->
+
           <h3 class="text-2xl font-bold text-gray-800">Bachelor of Information Technology</h3>
           <p class="text-gray-500 mt-2 italic">Ateneo de Davao University | 2020 - 2024</p>
           <p class="text-gray-600 mt-4 leading-relaxed">Relevant Coursework: Data Structures, Algorithms, Web Development, Database Management.</p>
@@ -86,20 +81,20 @@
       </div>
     </section>
 
-    <!-- Projects Section -->
+
     <section id="projects" class="py-20 px-6 bg-amber-700">
       <div class="max-w-5xl mx-auto text-center mb-16">
         <h2 class="text-4xl font-extrabold text-white tracking-wide mb-4">💻 Projects</h2>
         <p class="text-red-100 text-lg">A showcase of the work I’m most proud of.</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
-        <!-- Project Card -->
+
         <div class="bg-white p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
           <h3 class="text-2xl font-bold text-red-600">Project Title</h3>
           <p class="text-gray-700 mt-3 leading-relaxed">Brief description of the project goes here. Mention the tech stack used and what the project accomplishes.</p>
           <a href="#" class="text-red-600 font-semibold mt-4 inline-block hover:underline">View Project →</a>
         </div>
-        <!-- Second Project -->
+
         <div class="bg-white p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
           <h3 class="text-2xl font-bold text-red-600">Another Cool Project</h3>
           <p class="text-gray-700 mt-3 leading-relaxed">A modern solution for a real-world problem. Includes your role and key achievements.</p>
@@ -108,8 +103,6 @@
       </div>
     </section>
 
-
-    <!-- Contact Section -->
 
     <section id="contact" class="py-20 px-6 bg-amber-400">
       <div class="max-w-5xl mx-auto text-center mb-16">
@@ -129,7 +122,7 @@
               https://github.com/Binusss
             </a>
           </p>
-           <!-- Removed potentially irrelevant coursework line here -->
+
         </div>
         <div class="bg-white p-8 rounded-3xl shadow-2xl border-l-8 border-red-600 transition-transform transform hover:scale-105 duration-300">
           <h3 class="text-2xl font-bold text-gray-800">Email</h3>
@@ -143,7 +136,7 @@
               venusabellanosa@gmail.com
             </a>
           </p>
-          <!-- Maybe add LinkedIn or other contact methods here -->
+
         </div>
       </div>
     </section>
